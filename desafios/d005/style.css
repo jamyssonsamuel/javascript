@@ -1,0 +1,21 @@
+body{
+    font: normal 1em Arial;
+} 
+h1{
+    font-size: 2.5em;
+}  
+#box{
+    border: 1px solid black;
+    background-color: rgba(255, 158, 123, 0.589);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.13);
+}
+strong{
+    font-size: 2em;
+}
+#res{
+    padding: 10px;
+}

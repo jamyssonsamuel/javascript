@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Programa em JS</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(255, 212, 22);
+        }
+
+    </style>
+</head>
+<body>
+        <h1>Olá, Mundo!</h1>
+        <p>Já me livrei da maldição</p>
+        <script>
+           var nome = window.prompt('Qual  é o seu nome?', 'Digite aqui');//retorna null se não tem valor e um valor caso tenha 
+           alert('Olá '+ nome)//Ao guardar a variável "nome" aqui, irá mostrar uma saudação com o nome digitado no prompt. Ao usar o + temos a funçao de concatenar.
+          
+           /*
+           if (window.confirm("Você tem certeza?")) {
+               alert("Sim!");
+           } else { 
+               alert("Não"); 
+           }   
+           */ 
+        </script>
+</body>
+</html>

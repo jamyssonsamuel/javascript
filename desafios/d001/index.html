@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        body{
+            font: normal 1em Arial;
+            background-color: lightgoldenrodyellow;
+        }
+        h1{
+            color: darkslateblue;
+        }
+        div{
+            box-shadow: 0px 1px 4px rgb(145, 145, 145);
+        }
+        #b1{
+            background-color: lightgray;
+            width: 200px;
+            height: 90px;
+            border-radius: 10px;
+            line-height: 90px;
+            text-align: center;
+            margin-right: 15px;
+            float: left;
+        }
+        #b2{
+            background-color: lightgray;
+            width: 200px;
+            height: 90px;
+            border-radius: 10px;
+            line-height: 90px;
+            text-align: center;
+            margin-right: 15px;
+            float: left;
+        }
+        #b3{
+            background-color: lightgray;
+            width: 200px;
+            height: 90px;
+            border-radius: 10px;
+            line-height: 90px;
+            text-align: center;
+            margin-right: 15px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+        <div id="b1">
+            Botão 1
+        </div>
+        <div id="b2">
+            Botão 2
+        </div>
+        <div id="b3">
+            Botão 3
+        </div>
+
+    <script>
+        var d1 = window.document.getElementById('b1');
+        d1.addEventListener('click', clicar1); 
+        var d2 = window.document.getElementById('b2');
+        d2.addEventListener('click', clicar2);
+        var d3 = window.document.getElementById('b3');
+        d3.addEventListener('click', clicar3);
+        function clicar1(){
+        window.alert('Você clicou no 1° Botão!');    
+        }
+        function clicar2(){
+        window.alert('Você clicou no 2° Botão!');    
+        }
+        function clicar3(){
+            window.alert('Você clicou no 3° Botão!');
+        }
+    </script>
+</body>
+</html>
