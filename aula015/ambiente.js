@@ -10,4 +10,5 @@ if (pos == -1){
     console.log(`O valor ${num[pos]} está na ${pos}ª posição .`)
 }
 
+ m.for
  

@@ -7,7 +7,7 @@ function fatorial (n){
     }
 }
 
-console.log(fatorial(5))//Exibirá o resultado do fatorial de 5, que é igual a 1120
+console.log(fatorial(5))//Exibirá o resultado do fatorial de 5, que é igual a 120
 
 
 /* 5! = 5*4*3*2*1
